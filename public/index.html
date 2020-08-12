@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+
+</head>
+<body>
+	<h3><a href="Stopwatch/Stopwatch.html">StopWatch Link</a></h3>
+	<h1>CALCULATOR</h1>
+<div>
+	<form name="calculator">
+	<table>
+
+		<!--row1 display-->
+		<tr>
+			<td colspan="4"><input type="text" name="display" id="display"></td>
+		</tr>
+		<!--row 5 cal-->
+		<tr>
+			<td><input type="button" class="operator" value="exp" onclick="exponent()"></td>
+			
+			<td><input type="button" class="operator" value="1/x" onclick="half()"></td>
+			<td><input type="button" class="operator" value="|x|" onclick="absolute()"></td>
+			<td ><input type="button" id="clear" value="AC" onclick="clearDisplay()"></td>
+		</tr>
+		<!--sin-->
+		<tr>
+			<td><input type="button" class="operator" value="pow" onclick="power()"></td>
+			<td><input type="button" class="operator" value="(" onclick="numInput('(')"></td>
+			<td><input type="button" class="operator" value=")" onclick="numInput(')')"></td>
+			<td><input type="button" id="delete" value="Del" onclick="delet()"></td>
+		</tr>
+		<!--sin-->
+		<tr>
+			<td><input type="button" class="operator" value="n!" onclick="fact()"></td>
+			<td><input type="button" class="operator" value="log" onclick="log()"></td>
+			<td><input type="button" class="operator" value="deg" onclick="deg()"></td>
+			<td><input type="button" class="operator" value="rad" onclick="rad()"></td>
+			
+			
+		</tr>
+		<!--sin-->
+		<tr>
+			<td><input type="button" class="operator" value="sin" onclick="sine()"></td>
+			<td><input type="button" class="operator" value="cos" onclick="cose()"></td>
+			<td><input type="button" class="operator" value="tan" onclick="tane()"></td>
+			<td><input type="button" class="operator" value="π" onclick="pii()"></td>
+			
+			
+		</tr>
+		<!--rowx2-->
+		<tr>
+			<td><input type="button" class="operator" value="x²" onclick="square()"></td>
+			<td><input type="button" class="operator" value="x³" onclick="cube()"></td>
+			<td><input type="button" class="operator" value="√" onclick="squareroot()"></td>
+			<td><input type="button" class="operator" value="%" onclick="numInput('%')"></td>
+			
+			
+		</tr>
+		<!--row 2 789+-->
+		<tr>
+			<td><input type="button" class="calbtn" value="7" onclick="numInput('7')"></td>
+			<td><input type="button" class="calbtn" value="8" onclick="numInput('8')"></td>
+			<td><input type="button" class="calbtn" value="9" onclick="numInput('9')"></td>
+			<td><input type="button" class="operator" value="+" onclick="numInput('+')"></td>
+		</tr>
+		<!--row 3 456--->
+		<tr>
+			<td><input type="button" class="calbtn" value="4" onclick="numInput('4')"></td>
+			<td><input type="button" class="calbtn" value="5" onclick="numInput('5')"></td>
+			<td><input type="button" class="calbtn" value="6" onclick="numInput('6')"></td>
+			<td><input type="button" class="operator" value="-" onclick="numInput('-')"></td>
+		</tr>
+		<!--row 3 123*-->
+		<tr>
+			<td><input type="button" class="calbtn" value="1" onclick="numInput('1')"></td>
+			<td><input type="button" class="calbtn" value="2" onclick="numInput('2')"></td>
+			<td><input type="button" class="calbtn" value="3" onclick="numInput('3')"></td>
+			<td><input type="button" class="operator" value="*" onclick="numInput('*')"></td>
+		</tr>
+		<!--row 4 opera-->
+		<tr>
+			<td><input type="button" class="calbtn" value="." onclick="numInput('.')"></td>
+			<td><input type="button" class="calbtn" value="0" onclick="numInput('0')"></td>
+			
+			<td><input type="button" id="equal" value="=" onclick="Calculate()"></td>
+			<td><input type="button" class="operator" value="/" onclick="numInput('/')"></td>
+		</tr>
+		
+	</table>
+</form>
+
+
+</div>
+</body>
+<script src="Calculatorapp.js"></script>
+</html>

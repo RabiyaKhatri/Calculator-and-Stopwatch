@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stopwatch</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	
+	<div class="main">
+		<h1><u>STOPWATCH</u></h1>
+	<div id="timer">
+		<h1 id="hour">00 :</h1>
+		<h1 id="min">00 :</h1>
+		<h1 id="sec">00 :</h1>
+		<h1 id="msec">00</h1>
+	</div>
+	<p>Your time starts now</p>
+	<div>
+		<button id="play" onclick="start()"><i class="fa fa-play"></i></button>
+		<button id="pause" onclick="pause()"><i class="fa fa-stop">Stop</i></button>
+		<button id="reset" onclick="reset()"><i class="fa fa-undo"></i></button><br>
+		<button id="Calculator"><a href="../index.html">Calculator Link</a></button>
+	</div>
+	</div>
+</body>
+<script src="Stopwatchapp.js"></script>
+</html>

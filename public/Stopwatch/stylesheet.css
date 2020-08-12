@@ -1,0 +1,81 @@
+body{
+	text-align: center;
+	background:linear-gradient(to left,#6078db, #d459cb);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+h1{
+	display: inline-block;
+	color: #cc00cc;
+}
+.main{
+	display: inline-block;
+	min-width: 360px;
+	min-height: 400px;
+	padding: 50px 15px;
+	background-color: #fff;
+	box-shadow: 0 5px 25px #0000004a;
+	border-radius: 8px;
+	text-align: center;
+}
+#timer{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	line-height: 250px;
+	border-radius: 50%;
+	font-size: 32px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+p{
+	font-weight: 400;
+	color: gray;
+	padding: 10px 0;
+}
+#play, #reset{
+	padding-top: 0;
+	padding-left: 5px;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 50px;
+	color: white;
+	background: linear-gradient(45deg, #ff88fb, #ff00ec);
+	box-shadow: 0 8px 25px #bf5fc045, 0 8px 25px #ff00ec50;
+	transition: all ease 0.1s;
+}
+#pause{
+	padding:15px 20px;
+	border-radius: 50px;
+	color: white;
+	font-weight: 400;
+	border: 1px solid white;
+	background:linear-gradient(45deg, #607d8b, #ff00ec);
+	box-shadow: 0 8px 25px #bf5fc045, 0 8px 25px #ff00ec50;
+	transition: all ease 0.1s;
+}
+#play:active, #reset:active, #pause:active{
+	transform: scale(0.95);
+}
+#pause .fa-stop{
+	margin-right: 5px;
+} 
+#Calculator{
+	padding:15px 20px;
+	border-radius: 50px;
+	color: white;
+	font-weight: 400;
+	border: 1px solid white;
+	background:linear-gradient(45deg, #607d8b, #ff00ec);
+	box-shadow: 0 8px 25px #bf5fc045, 0 8px 25px #ff00ec50;
+	transition: all ease 0.1s;
+} 
+#Calculator a:link ,a:visited{
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,96 @@
+body{
+	background-image: url(background.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+	color: white;
+}
+h3 a:link, a:active, a:visited{
+	color: white;
+	font-size: 30px;
+}
+table{
+	margin-left: 33%;
+	background-color: skyblue;
+	border-radius: 20px;
+}
+#display{
+	border:2px ridge grey;
+	width: 500px;
+	height: 60px;
+	font-size: 40px;
+	border-radius: 30px;
+	margin: 20px;
+	background-color: lightgrey;
+}
+.operator{
+	margin: 5px;
+	width: 122px;
+	height: 50px;
+	font-size: 30px;
+	background-color:#CC99FF;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+#clear{
+	margin: 5px;
+	width: 122px;
+	height: 50px;
+	font-size: 30px;
+	background-color:#0066FF;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+#delete{
+	margin: 5px;
+	width: 122px;
+	height: 50px;
+	font-size: 30px;
+	background-color:#ff5050;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+#equal{
+	margin: 5px;
+	width: 122px;
+	height: 50px;
+	font-size: 30px;
+	background-color:#00CC66;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+.calbtn{
+	margin: 5px;
+	width: 122px;
+	height: 50px;
+	font-size: 30px;
+	background-color:#ff99cc;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+input:hover{
+	color:purple;
+}
+.operator:hover{
+	background-color: white;
+	color: #9900CC;
+}
+#clear:hover{
+	background-color: white;
+	color: #0066FF;
+}
+.calbtn:hover{
+	background-color: white;
+	color: #FF0066;
+}
+#delete:hover{
+	background-color: white;
+	color: #ff5050;
+}
+#equal:hover{
+	background-color: white;
+	color: #00CC66;
+}
